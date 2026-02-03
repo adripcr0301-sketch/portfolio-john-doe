@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 /* Transitions */
-a, .btn, .card {
+a, .btn, .card, .social-icons i {
   transition: all 0.3s ease;
 }
 
@@ -34,9 +34,12 @@ a, .btn, .card {
   font-weight: 600;
 }
 
+.social-icons a {
+  color: #6c757d !important;
+}
+
 .social-icons a:hover {
   color: #fff !important;
-  opacity: 0.8;
 }
 
 /* Hero Section */
@@ -58,7 +61,11 @@ a, .btn, .card {
 
 /* Buttons */
 .btn:hover {
-  filter: brightness(0.9);
+  filter: brightness(0.85);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
 }
 
 /* Progress bars */
@@ -67,8 +74,23 @@ a, .btn, .card {
 }
 
 /* Service & Portfolio Cards */
+.service-card,
+.portfolio-card {
+  border: 1px solid #dee2e6;
+}
+
 .service-card:hover,
 .portfolio-card:hover {
   background-color: #efefef;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Portfolio button lighter on hover */
+.portfolio-card .btn-primary:hover {
+  filter: brightness(1.15);
+}
+
+/* Accordion */
+.accordion-button:focus {
+  box-shadow: none;
 }
