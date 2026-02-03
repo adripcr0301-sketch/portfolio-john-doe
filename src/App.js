@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Services from './pages/Services/Services';
+import Portfolio from './pages/Portfolio/Portfolio';
 import GitHubModal from './components/Modal/GitHubModal';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home onOpenModal={() => setShowModal(true)} />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/portfolio" element={<Placeholder title="Portfolio" />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Placeholder title="Contact" />} />
           <Route path="/mentions-legales" element={<Placeholder title="Mentions légales" />} />
         </Routes>
