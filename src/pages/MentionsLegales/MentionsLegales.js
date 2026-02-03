@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 
 function MentionsLegales() {
   useEffect(() => {
+    document.title = 'Mentions légales - John Doe';
+
     // Add noindex meta tag for SEO
     const metaRobots = document.createElement('meta');
     metaRobots.name = 'robots';

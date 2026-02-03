@@ -1,4 +1,10 @@
+import { useEffect } from 'react';
+
 function Services() {
+  useEffect(() => {
+    document.title = 'Services - John Doe';
+  }, []);
+
   const services = [
     {
       icon: 'bi-palette',

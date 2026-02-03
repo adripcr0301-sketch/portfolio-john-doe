@@ -1,6 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Contact() {
+  useEffect(() => {
+    document.title = 'Contact - John Doe';
+  }, []);
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',

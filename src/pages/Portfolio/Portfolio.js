@@ -1,4 +1,10 @@
+import { useEffect } from 'react';
+
 function Portfolio() {
+  useEffect(() => {
+    document.title = 'Portfolio - John Doe';
+  }, []);
+
   const projects = [
     {
       image: '/images/portfolio/fresh-food.jpg',

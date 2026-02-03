@@ -1,4 +1,10 @@
+import { useEffect } from 'react';
+
 function Home({ onOpenModal }) {
+  useEffect(() => {
+    document.title = 'John Doe - Développeur Web Full Stack';
+  }, []);
+
   return (
     <>
       {/* Hero Section */}
