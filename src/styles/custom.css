@@ -38,3 +38,30 @@ a, .btn, .card {
   color: #fff !important;
   opacity: 0.8;
 }
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Buttons */
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+/* Progress bars */
+.progress {
+  height: 10px;
+}
