@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+// Home page component
 function Home({ onOpenModal }) {
   useEffect(() => {
     document.title = 'John Doe - Développeur Web Full Stack';

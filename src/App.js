@@ -9,7 +9,9 @@ import Contact from './pages/Contact/Contact';
 import MentionsLegales from './pages/MentionsLegales/MentionsLegales';
 import GitHubModal from './components/Modal/GitHubModal';
 
+// Main component
 function App() {
+  // Modal state
   const [showModal, setShowModal] = useState(false);
 
   return (

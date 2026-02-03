@@ -4,13 +4,12 @@ function MentionsLegales() {
   useEffect(() => {
     document.title = 'Mentions légales - John Doe';
 
-    // Add noindex meta tag for SEO
+    // Noindex meta tag
     const metaRobots = document.createElement('meta');
     metaRobots.name = 'robots';
     metaRobots.content = 'noindex, nofollow';
     document.head.appendChild(metaRobots);
 
-    // Cleanup on unmount
     return () => {
       document.head.removeChild(metaRobots);
     };

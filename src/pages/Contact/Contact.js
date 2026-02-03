@@ -5,6 +5,7 @@ function Contact() {
     document.title = 'Contact - John Doe';
   }, []);
 
+  // Form data state
   const [formData, setFormData] = useState({
     name: '',
     email: '',

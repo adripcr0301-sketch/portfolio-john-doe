@@ -5,7 +5,7 @@ function GitHubModal({ show, onClose }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch GitHub data only once when component mounts
+    // GitHub API call
     fetch('https://api.github.com/users/github-john-doe')
       .then(response => response.json())
       .then(data => {

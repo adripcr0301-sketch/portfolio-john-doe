@@ -5,6 +5,7 @@ function Services() {
     document.title = 'Services - John Doe';
   }, []);
 
+  // Services data
   const services = [
     {
       icon: 'bi-palette',

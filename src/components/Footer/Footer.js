@@ -6,7 +6,6 @@ function Footer() {
       <div className="container">
         <div className="row">
 
-          {/* Column 1: Contact Info */}
           <div className="col-md-4 mb-3 mb-md-0">
             <h5>John Doe</h5>
             <p className="mb-1">40 rue Laure Diebold</p>
@@ -14,7 +13,6 @@ function Footer() {
             <p className="mb-1">10 20 30 40 50</p>
             <p className="mb-3">john.doe@gmail.com</p>
 
-            {/* Social Icons */}
             <div className="social-icons">
               <a
                 href="https://github.com"
@@ -46,7 +44,6 @@ function Footer() {
             </div>
           </div>
 
-          {/* Column 2: Useful Links */}
           <div className="col-md-4 mb-3 mb-md-0">
             <h5>Liens utiles</h5>
             <ul className="list-unstyled">
@@ -58,7 +55,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Recent Projects */}
           <div className="col-md-4">
             <h5>Mes dernières réalisations</h5>
             <ul className="list-unstyled">

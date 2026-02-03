@@ -5,6 +5,7 @@ function Portfolio() {
     document.title = 'Portfolio - John Doe';
   }, []);
 
+  // Projects data
   const projects = [
     {
       image: '/images/portfolio/fresh-food.jpg',
