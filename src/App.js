@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route path="/mentions-legales" element={<Placeholder title="Mentions légales" />} />
         </Routes>
       </main>
+
+      <Footer />
     </div>
   );
 }

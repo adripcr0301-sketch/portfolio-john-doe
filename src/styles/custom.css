@@ -22,3 +22,19 @@ a, .btn, .card {
   font-weight: 600;
   text-decoration: underline;
 }
+
+/* Footer */
+.footer-link {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.social-icons a:hover {
+  color: #fff !important;
+  opacity: 0.8;
+}
