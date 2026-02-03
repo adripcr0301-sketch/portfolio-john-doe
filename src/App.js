@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Services from './pages/Services/Services';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
+import MentionsLegales from './pages/MentionsLegales/MentionsLegales';
 import GitHubModal from './components/Modal/GitHubModal';
 
 function App() {
@@ -21,21 +22,13 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/mentions-legales" element={<Placeholder title="Mentions légales" />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>
       </main>
 
       <Footer />
 
       <GitHubModal show={showModal} onClose={() => setShowModal(false)} />
-    </div>
-  );
-}
-
-function Placeholder({ title }) {
-  return (
-    <div className="container text-center py-5">
-      <h1>{title}</h1>
     </div>
   );
 }
